@@ -2,18 +2,20 @@
     --blue: #1877f2;
     --green: #42b72a;
     --light-blue: #E9EBEE;
+    --light-green: #03ad06;
     --white: #FFFFFF;
     --black: #000000;
     --light-dark: rgba(0, 0, 0, 0.1);
     --palceholder: rgba(0, 0, 0, 0.4);
 }
 
-
+/*----------------- login ----------------------*/
 body {
     background-color: var(--light-blue);
-    font-size: 18px;
+    font-size: 16px;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
 }
-.content{ 
+.content{ /*make it in the middle vertically and horizontally*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,7 +46,7 @@ body {
     box-shadow: 0 2px 4px var(--light-dark), 0 8px 16px var(--light-dark);
 }
 .right form input{
-    outline: none;
+    outline: none; /*remove border when it focused*/
     border-radius: 5px;
     border-width: 1.8px;
     border-color: var(--light-dark);
@@ -84,7 +86,7 @@ body {
     border: none;
 }
 .right form .create-account:hover {
-    background: #03ad06;
+    background: var(--light-green);
     cursor: pointer;
 }
 .right form a{
@@ -101,4 +103,99 @@ body {
     text-decoration: none;
     font-weight: 600;
     color: var(--black);
+}
+
+
+/*------------ register ----------*/
+.modal .modal-header{
+    align-items: start !important;
+}
+.modal .modal-header .modal-title{
+    font-weight: bolder;
+}
+.modal .modal-header h2 span{
+    display: block;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.modal .modal-body{
+    padding-bottom: 0 !important;
+}
+.modal .modal-body .form-text{
+    display: flex;
+    flex-direction: column;
+
+}
+.modal .modal-body p{
+    font-size: 12px;
+}
+.modal .modal-footer p a{
+    color: var(--blue);
+    text-decoration: none;
+}
+.modal .modal-footer .form-btn{
+    background-color: var(--light-green);
+    color: var(--white);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 50px;
+    font-weight: bolder;
+    margin: auto;
+    border: none;
+}
+.modal .modal-footer .form-btn:hover {
+    background: var(--green);
+    cursor: pointer;
+}
+.birth-date h6, .form-gender h6{
+    font-size: 12px;
+    margin-bottom: 0 !important;
+}
+.birth-date select{
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    height: 36px;
+    line-height: 20px;
+    width: 100%;
+    padding-left: 5px;
+}
+.form-control{
+    font-size: 16px !important;
+}
+.form-gender .gender{
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 1 0 auto;
+    font-weight: normal;
+    height: 36px;
+    padding: 0;
+    position: relative;
+    width: auto;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.form-gender .gender label{
+    display: inline-block;
+    line-height: 36px;
+    padding: 0 75px 0 10px;
+    width: 100%;
+}
+.form-gender .gender input{
+    height: 36px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.modal-footer{
+    border: none;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+.modal-body{
+    padding-bottom: 0;
 }
