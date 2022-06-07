@@ -15,23 +15,23 @@
 <body>
 
 <!-- --------------------- login -------------------->
-<section>
+<section class="login">
     <div class="container content">
         <div class="row">
-            <div class="left col-6">
+            <div class="left-content col-6">
                 <h1>facebook</h1>
                 <p>Connect with friends and the world around you on Facebook.</p>
             </div>
-            <div class="right col-6">
+            <div class="right-content col-6">
                 <form>
-                        <input type="text" placeholder="Email or Phone Number" required>
-                        <input type="password" placeholder="Password" required>
-                        <button class="login-btn">login</button>
-                        <a href="#">forget password</a>
-                        <div><hr></div>
-                        <button class="create-account" data-bs-toggle="modal" data-bs-target="#register">create a new account</button>
+                    <input class="input" type="text" placeholder="Email or Phone Number" required>
+                    <input class="input" type="password" placeholder="Password" required>
+                    <button class="login-btn">login</button>
+                    <a href="#">forget password</a>
+                    <div><hr></div>
+                    <button class="create-account" data-bs-toggle="modal" data-bs-target="#register">create a new account</button>
                 </form>
-                <p class="page"><a href="#">Create a Page</a>  for a celebrity, brand or business.</p>
+                <p class="create-page"><a href="#">Create a Page</a>  for a celebrity, brand or business.</p>
             </div>
         </div>
     </div>
@@ -49,30 +49,20 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <div class="form-text">
-                        <div class="row">
-                            <div class="col-md-6 mb-3">
-                                <div class="form-outline">
-                                    <input type="text" placeholder="First Name" required class="form-control form-control-lg" />
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <div class="form-outline">
-                                    <input type="text" placeholder="Last Name" required class="form-control form-control-lg" />
-                                </div>
-                            </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input class="input" type="text" placeholder="First Name" required/>
                         </div>
-                        <div class="form-outline mb-3">
-                            <input type="text" placeholder="Email or Phone Number" required class="form-control form-control-lg" />
-                        </div>
-                        <div class="form-outline mb-3">
-                            <input type="text" placeholder="New Password" required class="form-control form-control-lg" />
+                        <div class="col-md-6">
+                            <input class="input" type="text" placeholder="Last Name" required/>
                         </div>
                     </div>
+                    <input class="input" type="text" placeholder="Email or Phone Number" required>
+                    <input class="input" type="password" placeholder="Password" required>
                     <div class="birth-date mb-3">
                         <h6>Birth Date</h6>
                         <div class="row">
-                            <div class="col-md-4 mx-auto">
+                            <div class="col-md-4">
                                 <select class="select">
                                     <option value="day">day</option>
                                     <option value="1">1</option>
@@ -82,7 +72,7 @@
                                     <option value="5">5</option>
                                 </select>
                             </div>
-                            <div class="col-md-4 mx-auto">
+                            <div class="col-md-4">
                                 <select class="select">
                                     <option value="month">month</option>
                                     <option value="January">January</option>
@@ -92,7 +82,7 @@
                                     <option value="May">May</option>
                                 </select>
                             </div>
-                            <div class="col-md-4 mx-auto">
+                            <div class="col-md-4">
                                 <select class="select">
                                     <option value="year">year</option>
                                     <option value="2022">2022</option>
@@ -106,18 +96,18 @@
                     </div>
                     <div class="form-gender mb-3">
                         <h6>Gender</h6>
-                            <div class="gender">
-                                <label for="female">female</label>
-                                <input type="radio" id="female" name="gender" value="female">
-                            </div>
-                            <div class="gender">
-                                <label for="male">male</label>
-                                <input type="radio" id="male" name="gender" value="male">
-                            </div>
-                            <div class="gender">
-                                <label for="other">other</label>
-                                <input type="radio" id="other" name="gender" value="other">
-                            </div>
+                        <div class="gender">
+                            <label for="female">female</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                        </div>
+                        <div class="gender">
+                            <label for="male">male</label>
+                            <input type="radio" id="male" name="gender" value="male">
+                        </div>
+                        <div class="gender">
+                            <label for="other">other</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                        </div>
                     </div>
                 </form>
                 <p>En appuyant sur S’inscrire, vous acceptez nos <a href="#">Conditions générales</a>,
@@ -127,7 +117,7 @@
                 </p>
             </div>
             <div class="modal-footer">
-                <button type="submit" class="form-btn">Register</button>
+                <button type="submit" class="create-account">Register</button>
             </div>
         </div>
     </div>

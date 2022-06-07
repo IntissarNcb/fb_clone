@@ -21,23 +21,23 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.left{
+.left-content{
     padding: 75px 0 0 75px;
 }
-.left h1{
+.left-content h1{
     color: var(--blue);
     font-size: 60px;
     font-weight: 700;
 }
-.left p{
+.left-content p{
     font-size: 28px;
     line-height: 30px;
 }
-.right{
+.right-content{
     margin: auto;
     padding: 0 90px;
 }
-.right form{
+.right-content form{
     display: flex;
     flex-direction: column;
     background-color: var(--white);
@@ -45,61 +45,62 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 4px var(--light-dark), 0 8px 16px var(--light-dark);
 }
-.right form input{
+.right-content form .input, .modal-body form .input{
     outline: none; /*remove border when it focused*/
     border-radius: 5px;
     border-width: 1.8px;
     border-color: var(--light-dark);
     margin-bottom: 10px;
     padding: 10px;
+    width: 100%;
 }
-.right form input:focus {
+.right-content form .input:focus, .modal-body form .input:focus {
     border: 1.8px solid var(--blue);
 }
-.right form ::placeholder{
+.right-content form ::placeholder, .modal-body form ::placeholder{
     color: var(--palceholder);
 }
-.right form .login-btn{
+.right-content form .login-btn{
     background-color: var(--blue);
     border: none;
     color: var(--white);
     border-radius: 5px;
-    padding: 10px;
+    padding: 14px 32px;
     margin: 10px 0;
     font-weight: bolder;
 }
-.right form .login-btn:hover {
+.right-content form .login-btn:hover {
     background: var(--blue);
     cursor: pointer;
 }
-.right form hr{
+.right-content form hr{
     margin: 25px 0;
 }
-.right form .create-account{
+.right-content form .create-account, .modal-footer .create-account{
     background-color: var(--green);
     color: var(--white);
     border-radius: 5px;
     text-align: center;
-    padding: 10px 25px;
+    padding: 14px 32px;
     font-weight: bolder;
     margin: auto;
     border: none;
 }
-.right form .create-account:hover {
+.right-content form .create-account:hover, .modal-footer .create-account:hover {
     background: var(--light-green);
     cursor: pointer;
 }
-.right form a{
+.right-content form a{
     margin: auto;
     text-decoration: none;
     font-size: 15px;
 }
-.right .page{
+.right-content .create-page{
     padding: 25px 15px 0 15px;
     font-size: 15px;
     text-align: center;
 }
-.right .page a{
+.right-content .create-page a{
     text-decoration: none;
     font-weight: 600;
     color: var(--black);
@@ -121,9 +122,6 @@ body {
 .modal-body{
     padding-bottom: 0;
 }
-.modal-body .form-text .form-control{
-    font-size: 16px;
-}
 .modal-body .birth-date h6, .modal-body .form-gender h6{
     font-size: 12px;
     margin-bottom: 0;
@@ -138,27 +136,22 @@ body {
 }
 .modal-body .form-gender .gender{
     border: 1px solid var(--light-dark);
+    border-radius: 5px;
     display: inline-block;
-    flex: 1 0 auto;
     height: 36px;
-    padding: 0;
     position: relative;
     width: auto;
-    border-radius: 5px;
     margin-right: 20px;
 }
 .form-gender .gender label{
     display: inline-block;
     line-height: 36px;
     padding: 0 75px 0 10px;
-    width: 100%;
 }
 .form-gender .gender input{
     height: 36px;
-    margin: 0;
     position: absolute;
     right: 10px;
-    top: 0;
 }
 .modal-body p{
     font-size: 12px;
@@ -174,20 +167,6 @@ body {
     border: none;
     padding-top: 0;
     padding-bottom: 20px;
-}
-.modal-footer .form-btn{
-    background-color: var(--light-green);
-    color: var(--white);
-    border-radius: 5px;
-    text-align: center;
-    padding: 5px 50px;
-    font-weight: bolder;
-    margin: auto;
-    border: none;
-}
-.modal .modal-footer .form-btn:hover {
-    background: var(--green);
-    cursor: pointer;
 }
 
 

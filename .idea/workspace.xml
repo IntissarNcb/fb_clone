@@ -59,7 +59,8 @@
       <workItem from="1652968474750" duration="596000" />
       <workItem from="1653213986044" duration="3117000" />
       <workItem from="1653383161705" duration="12312000" />
-      <workItem from="1653992053132" duration="8335000" />
+      <workItem from="1653992053132" duration="13275000" />
+      <workItem from="1654589756123" duration="5485000" />
     </task>
     <task id="LOCAL-00001" summary="login">
       <created>1653992770421</created>
@@ -68,7 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653992770421</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="register">
+      <created>1654179887607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654179887607</updated>
+    </task>
+    <task id="LOCAL-00003" summary="code clean">
+      <created>1654181096224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654181096224</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,17 +103,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="login" />
-    <option name="LAST_COMMIT_MESSAGE" value="login" />
+    <MESSAGE value="register" />
+    <MESSAGE value="code clean" />
+    <option name="LAST_COMMIT_MESSAGE" value="code clean" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1653388332192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1653388332192" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1653992780803">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1654181119311">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1653992780803" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654181119311" />
     <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1653992748261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
