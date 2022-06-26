@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5215ecae-af2a-49f4-b775-eedc9070d280" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
@@ -43,7 +45,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontend formation" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -60,7 +62,8 @@
       <workItem from="1653213986044" duration="3117000" />
       <workItem from="1653383161705" duration="12312000" />
       <workItem from="1653992053132" duration="13275000" />
-      <workItem from="1654589756123" duration="5485000" />
+      <workItem from="1654589756123" duration="6941000" />
+      <workItem from="1655974224717" duration="14548000" />
     </task>
     <task id="LOCAL-00001" summary="login">
       <created>1653992770421</created>
@@ -83,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654181096224</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="last updates">
+      <created>1654599538664</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654599538664</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,17 +115,26 @@
     <MESSAGE value="login" />
     <MESSAGE value="register" />
     <MESSAGE value="code clean" />
-    <option name="LAST_COMMIT_MESSAGE" value="code clean" />
+    <MESSAGE value="last updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="last updates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1653388332192">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1655974488710">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1653388332192" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1654181119311">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1655974488710" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1655988842060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654181119311" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1655988842060" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1654599548973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654599548973" />
+    <state x="0" y="0" width="1062" height="715" key="dock-window-1" timestamp="1655975487177">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="1062" height="715" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1655975487177" />
     <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1653992748261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
