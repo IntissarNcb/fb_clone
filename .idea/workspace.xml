@@ -11,10 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5215ecae-af2a-49f4-b775-eedc9070d280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/facebook.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +62,7 @@
       <workItem from="1653992053132" duration="13275000" />
       <workItem from="1654589756123" duration="6941000" />
       <workItem from="1655974224717" duration="14548000" />
-      <workItem from="1656234669502" duration="297000" />
+      <workItem from="1656234669502" duration="11742000" />
     </task>
     <task id="LOCAL-00001" summary="login">
       <created>1653992770421</created>
@@ -101,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656234691588</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updat changes">
+      <created>1656235048967</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656235048967</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +130,8 @@
     <MESSAGE value="code clean" />
     <MESSAGE value="last updates" />
     <MESSAGE value="navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar" />
+    <MESSAGE value="updat changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="updat changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1655974488710">
@@ -136,10 +142,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1655988842060" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1656234702611">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1656235056056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1656234702611" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1656235056056" />
     <state x="0" y="0" width="1062" height="715" key="dock-window-1" timestamp="1655975487177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

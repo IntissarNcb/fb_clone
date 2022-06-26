@@ -1,3 +1,5 @@
+/*------------------------------ nav bar ----------------------*/
+
 #fb-navbar{
     padding: 5px 20px;
     background-color: var(--white);
@@ -30,16 +32,18 @@
     border: none;
 }
 
-    /*----------- middle content --------------*/
+
+/*----------- middle content --------------*/
 #fb-navbar .middle-content{
     display: flex;
     justify-content: center;
     color: var(--palceholder);
-    font-size: 25px;
+    font-size: 22px;
     align-items: center;
 }
 #fb-navbar .middle-content i{
-    padding: 10px 40px;
+    padding: 10px 30px;
+    margin: 0 10px;
     border-radius: 5px;
 }
 #fb-navbar .middle-content i:hover{
@@ -74,3 +78,78 @@
 #fb-navbar .right-content .img-profile{
     cursor: pointer;
 }
+
+
+/*--------------------- profile banner --------------*/
+#profile-banner{
+    background: linear-gradient(to bottom, var(--light-dark), var(--white), var(--white));
+    height: 100vh;
+}
+#profile-banner .container{
+    width: 950px !important;
+}
+#profile-banner .cover{
+    position: absolute;
+    height: 350px;
+    width: 100%;
+}
+#profile-banner .cover .cover-img{
+    height: 100%;
+    width: 100%;
+}
+#profile-banner .cover .cover-img img{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#profile-banner .cover .cover-img-choice{
+    position: absolute;
+    background-color: var(--white);
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 300px;
+    left: 680px;
+}
+
+#profile-banner .profile{
+    position: absolute;
+    top: 310px;
+    left: 30px;
+    display: flex;
+    align-items: end;
+}
+#profile-banner .profile .picture{
+    padding-right: 30px;
+}
+#profile-banner .profile .picture i{
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: -50px;
+    margin-top: 75px;
+}
+#profile-banner .profile .content {
+    padding-right: 150px;
+}
+
+#profile-banner .profile .buttons {
+    display: flex;
+}
+#profile-banner .profile .buttons .add-story, #profile-banner .profile .buttons .edit-profile {
+    background-color: var(--blue);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: var(--white);
+    margin: 0 10px;
+
+}
+#profile-banner .profile .buttons .edit-profile {
+    background-color: var(--light-dark);
+    color: var(--black);
+
+}
+
+
+
