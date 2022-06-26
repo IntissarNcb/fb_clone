@@ -1,0 +1,16 @@
+:root {
+    --blue: #1877f2;
+    --green: #42b72a;
+    --light-blue: #E9EBEE;
+    --light-green: #03ad06;
+    --white: #FFFFFF;
+    --black: #000000;
+    --light-dark: rgba(0, 0, 0, 0.2);
+    --palceholder: rgba(0, 0, 0, 0.4);
+    --gradian-background: linear-gradient(to bottom, #000000 0%, #ffffff 100%);
+}
+
+body {
+    font-size: 16px;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+}

@@ -1,20 +1,10 @@
-:root {
-    --blue: #1877f2;
-    --green: #42b72a;
-    --light-blue: #E9EBEE;
-    --light-green: #03ad06;
-    --white: #FFFFFF;
-    --black: #000000;
-    --light-dark: rgba(0, 0, 0, 0.1);
-    --palceholder: rgba(0, 0, 0, 0.4);
-}
+
 
 /*----------------- login ----------------------*/
 body {
     background-color: var(--light-blue);
-    font-size: 16px;
-    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
 }
+
 #fb-login .content{ /*make it in the middle vertically and horizontally*/
     position: absolute;
     top: 50%;
